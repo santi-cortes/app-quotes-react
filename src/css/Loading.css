@@ -1,0 +1,38 @@
+.divPadre {
+  height: 100vh;
+  position: relative;
+  animation-name: trans;
+  animation-duration: 5s;
+}
+
+@keyframes trans {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    background-color: transparent;
+  }
+}
+
+.divHijo {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.spinner {
+  width: 100px;
+  height: 100px;
+  border: 10px solid currentColor;
+  border-right-color: transparent;
+}
