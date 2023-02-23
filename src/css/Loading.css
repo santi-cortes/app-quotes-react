@@ -2,7 +2,7 @@
   height: 100vh;
   position: relative;
   animation-name: trans;
-  animation-duration: 5s;
+  animation-duration: 1s;
 }
 
 @keyframes trans {
